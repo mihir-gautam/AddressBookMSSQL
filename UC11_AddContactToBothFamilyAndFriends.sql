@@ -1,4 +1,5 @@
 --UC11 Ability to add person to both friend and family
+use address_book_service
 update address_book_table
 set book_name = 'Family Book', book_type = 'Family'
 where last_name = 'Kumar'

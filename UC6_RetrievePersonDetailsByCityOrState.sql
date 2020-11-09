@@ -1,4 +1,5 @@
 --UC6 Retrieve person belonging to a city or state
+use address_book_service
 select * from address_book_table
 --insert into address_book_table(first_name,last_name,address,city,state,zip,phone,email)
 --values ('Anil','Kumar','house no 20','New Delhi','Delhi',110021,9988000000,'xyz@example.com')
